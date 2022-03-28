@@ -11,6 +11,7 @@
   inputs.src-ngxcmod-0_1_2.ref   = "refs/tags/0.1.2";
   inputs.src-ngxcmod-0_1_2.owner = "ba0f3";
   inputs.src-ngxcmod-0_1_2.repo  = "ngxcmod.nim";
+  inputs.src-ngxcmod-0_1_2.dir   = "";
   inputs.src-ngxcmod-0_1_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
